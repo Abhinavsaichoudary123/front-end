@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title><b>Responsive Layout</b></title>
+    <style>
+        @media only screen and (min-width: 992px) {
+        #container-1 {
+            background-color: black;
+            height: 100px;
+            width: 100%;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+        }
+
+        #content {
+            display: flex;
+            width: 100%;
+            padding: 0 35px; 
+            box-sizing: border-box;
+        }
+
+        #container-2 {
+            background-color: red;
+            width: 35%;
+            height: 50px;
+            color: black;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-left: 10px;
+        }
+
+        #container-3 {
+            background-color: blue;
+            width: 65%;
+            height: 50px;
+            color: black;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding-left: 10px;
+        }
+
+        #container-4 {
+            background-color: black;
+            height: 50px;
+            width: 100%;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1rem;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div id="container-1"><b>Responsive Layout</b></div>
+    <div id="content">
+        <div id="container-2"><b>sidebar control</b></div>
+        <div id="container-3"><b>Main content</b></div>
+    </div>
+    <div id="container-4"><b>Footer Content</b></div>
+</body>
+</html>
